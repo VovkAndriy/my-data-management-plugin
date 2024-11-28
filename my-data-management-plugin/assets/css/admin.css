@@ -1,0 +1,31 @@
+#pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    font-size: 12px;
+    column-gap: 10px;
+}
+
+#pagination a {
+    color: #000;
+}
+
+#pagination a._active {
+    font-weight: bold;
+}
+
+#search-form {
+    margin: 5px 0 10px;
+    color: #000;
+}
+
+#new-record-form {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+#new-record-form button {
+    height: 30px;
+}
